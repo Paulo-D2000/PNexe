@@ -15,6 +15,7 @@ Decoder.exe -> Usage: encoded.png or drop the image to "Decoder.exe"
 // Inside Demo folder there are the compiled tools and one simple messagebox executable "file.exe" for testing //
 
 // PT - BR // 
+
 *ATENÇÃO! NÃO RESPONSABILIZO POR SEUS ATOS, ESTE CÓDIGO É APENAS PARA FINS EDUCACIONAIS! "
 
 Dependências:
