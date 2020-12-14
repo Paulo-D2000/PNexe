@@ -1,6 +1,8 @@
 # PNexe
 C++ Based Steganography with exe files &amp; png images!
 
+![Output sample](https://github.com/Paulo-D2000/PNexe/blob/main/Demo/demo.gif)
+
 //EN - US //
 *ATENTION! I DON'T RESPONSABILIZE FOR YOUR ACTS, THIS CODE IS ONLY FOR EDUCATIONAL PURPOSES!"
 
