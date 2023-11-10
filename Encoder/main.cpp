@@ -2,7 +2,7 @@
 #include <fstream>
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "../external/stb_image_write.h"
+#include "stb_image_write.h"
 
 
 int main(int argc, char* argv[]) {
@@ -25,7 +25,7 @@ int main(int argc, char* argv[]) {
         file.close();
 
         int CHANNEL_NUM = 3;
-        int width = 1 + sqrt(size/ CHANNEL_NUM);
+        int width = ceil(sqrt(ceil((float)(size)/ (float)(CHANNEL_NUM))));
         int height = width;
 
         uint8_t* pixels = new uint8_t[width * height * CHANNEL_NUM];
@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
                     pixels[index + 2] = memblock[index + 2];
                 }
                 else {
-                    pixels[index + 0] = 255;
+                    pixels[index + 0] = 0;
                     pixels[index + 1] = 0;
                     pixels[index + 2] = 0;
                 }
